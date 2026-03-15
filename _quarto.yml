@@ -8,3 +8,15 @@ website:
         text: 首页
       - href: about.qmd
         text: 关于
+project:
+  type: website
+website:
+  title: "我的个人网站"
+  navbar:
+    left:
+      - href: index.qmd
+        text: 首页
+      - href: about.qmd
+        text: 关于
+  # 加这一行，换个好看的主题
+  theme: cosmo
